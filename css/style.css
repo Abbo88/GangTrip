@@ -1,0 +1,155 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #FF3D00;
+}
+
+/* Vari font per il logo
+font-family: 'Kaushan Script', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Berkshire Swash', cursive;
+*/ 
+nav .brand-logo {
+  font-family: 'Permanent Marker', cursive;
+    font-size: 2.5em;
+}
+
+.nav-wrapper {
+padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.header {
+  margin-top: 15%;
+  font-size: 3em;
+}
+
+.header-subtitle {
+  margin-top: 10%;
+  font-size: 1.5em;
+}
+
+.button-collapse {
+  color: #FF3D00;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper {
+    padding: 0 10px;
+  }
+}
+
+/* Servizio */
+.col-servizio {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+/* Registrazione */
+.section-registr {
+  height: 100%;
+  width: 100%;
+}
+
+.registr-icon {
+  font-size: 7em;
+  margin-top: 80px;
+}
+
+.header-registr {
+  margin-top: 5%;
+  font-size: 3em;
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+.btn-registrazione {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* Lavora con noi */
+.col-Lavora_con_noi {
+  margin-bottom: 100px;
+}
+
+.Lavora_con_noi-icon {
+  font-size: 7em;
+  margin-top: 60px;
+}
+
+h6 {
+  font-size: 1.25em;
+  line-height: 2em;
+}
+
+.btn-Lavora_con_noi {
+  width: 100%;
+}
+
+/* Extra */
+.section-extra {
+  height: 100%;
+  width: 100%;
+}
+
+/* Footer */
+footer.page-footer {
+  margin: 0;
+  background-color: #086788;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.social-icon:hover {
+  color: #FF3D00;
+}
+
+.footer-copyright {
+  color: #FF3D00;
+}
