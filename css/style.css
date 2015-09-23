@@ -67,6 +67,51 @@ p {
 }
 
 @media only screen and (max-width : 600px) {
+  .header {
+    font-size: 2.75em;
+  }
+
+  .section {
+    margin-top: -3rem;
+  }
+
+  .col-servizio h5 {
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: large;
+  }
+
+  .col-servizio h6 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: small;
+  }
+  
+  .icon-block h5 {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+  }
+
+  .icon-block p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: medium;
+  }
+  .section-registr .registr-icon {
+    margin-top: 60px;
+  }
+
+  .section-registr .header-registr {
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 2.5em;
+  }
+
+  .section-registr h3 {
+    font-size: 1.35em;
+  }
+
   #index-banner .section {
     top: 0;
   }
@@ -78,11 +123,29 @@ p {
   .btn-registrazione {
   height: 100%;
   width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+
+  .col-Lavora_con_noi h4 {
+    font-size: 1.85em;
+  }
+
+  .col-Lavora_con_noi h6 {
+    font-size: 1.40em;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .btn-Lavora_con_noi {
   height: 100%;
   width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  }
+
+  .section-extra h2 {
+    font-size: 4em;
   }
  }
 
@@ -113,7 +176,6 @@ h3{
 }
 
 .section-extra h2 {
-  font-size: 5em;
   font-family: 'Permanent Marker', cursive;
 }
 
